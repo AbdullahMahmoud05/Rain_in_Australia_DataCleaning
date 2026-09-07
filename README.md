@@ -79,9 +79,6 @@ engineered in `Rain_in_Australia.ipynb`).
 
 Keep `weathercleaned.csv` in the same folder as `app.py` — the app loads it by relative path.
 
-## Deploy it online (Streamlit Community Cloud — free)
-
-
 
 ## Notebook correction
 
