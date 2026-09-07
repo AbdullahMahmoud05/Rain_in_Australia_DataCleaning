@@ -82,21 +82,6 @@ Keep `weathercleaned.csv` in the same folder as `app.py` — the app loads it by
 ## Deploy it online (Streamlit Community Cloud — free)
 
 
-### Alternative: deploy on your own server / a VM
-
-1. Copy the three files to the server.
-2. `pip install -r requirements.txt`
-3. Run persistently, e.g. with `tmux`/`screen`, or as a systemd service:
-
-   ```bash
-   streamlit run app.py --server.port 8501 --server.address 0.0.0.0
-   ```
-
-4. Open the server's firewall for port 8501 (or put it behind Nginx/Caddy as a reverse proxy on port 80/443 with a domain + TLS certificate for a production-grade public URL).
-
-### Alternative: containerize (Docker)
-
-If you'd like a `Dockerfile` for deployment on services like Render, Railway, Fly.io, or AWS/GCP/Azure container services, just ask — happy to add one.
 
 ## Notebook correction
 
