@@ -30,19 +30,19 @@ engineered in `Rain_in_Australia.ipynb`).
 ## Preview
 
 **Executive KPI & Trends**
-![Executive KPI & Trends tab](images/screenshots/tab1_kpi_trends.png)
+![Executive KPI & Trends tab](images/tab1_kpi_trends.png)
 
 **Location Deep-Dive** — note the log-scale boxplot: rainfall is heavily right-skewed (most days near zero, occasional extreme downpours), so a log y-axis keeps both the typical range and the extreme outliers readable in the same chart.
-![Location Deep-Dive tab](images/screenshots/tab2_location.png)
+![Location Deep-Dive tab](images/tab2_location.png)
 
 **Atmospheric Drivers** — each of the four small panels keeps its own natural scale (°C, %, hPa, oktas), so a real ~17-point humidity gap between rainy and dry days isn't visually flattened by mixing it with pressure values in the thousands.
-![Atmospheric Drivers tab](images/screenshots/tab3_drivers.png)
+![Atmospheric Drivers tab](images/tab3_drivers.png)
 
 **July 2017 Outlook**
-![July 2017 Outlook tab](images/screenshots/tab4_outlook.png)
+![July 2017 Outlook tab](images/tab4_outlook.png)
 
 **Sidebar filters** — Location and Year are dropdowns defaulting to "All", instead of long lists of chips/a slider.
-![Sidebar filters](images/screenshots/sidebar_filters.png)
+![Sidebar filters](images/sidebar_filters.png)
 
 ## Data schema (key columns)
 
