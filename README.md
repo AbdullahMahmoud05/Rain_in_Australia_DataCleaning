@@ -81,17 +81,6 @@ Keep `weathercleaned.csv` in the same folder as `app.py` — the app loads it by
 
 ## Deploy it online (Streamlit Community Cloud — free)
 
-The live version above is already deployed this way. To deploy your own copy (or push updates to the existing one):
-
-1. **Create/use a GitHub repo** and push `app.py`, `weathercleaned.csv`, and `requirements.txt` to it.
-   - If the CSV is large, check GitHub's file-size limits (it's ~27 MB here, which is fine for a normal repo; GitHub's hard block is 100 MB per file).
-2. Go to **https://share.streamlit.io** and sign in with your GitHub account.
-3. Click **"New app"**, then select:
-   - Repository: the repo you just created
-   - Branch: `main` (or whichever branch you pushed to)
-   - Main file path: `app.py`
-4. Click **Deploy**. Streamlit Cloud installs `requirements.txt` automatically and starts the app.
-5. Any time you push a new commit to the repo, the deployed app auto-updates — that's how to push changes to the live URL above.
 
 ### Alternative: deploy on your own server / a VM
 
